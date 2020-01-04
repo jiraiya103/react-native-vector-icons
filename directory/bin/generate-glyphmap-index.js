@@ -8,11 +8,11 @@ const glypmapExtension = '.json';
 
 const fontAwesomeGlyphmap = require(path.join(
   glypmapDirectory,
-  'FontAwesome5Free.json'
+  'FontAwesome5Pro.json'
 ));
 const fontAwesomeMeta = require(path.join(
   glypmapDirectory,
-  'FontAwesome5Free_meta.json'
+  'FontAwesome5Pro_meta.json'
 ));
 const pickGlyps = (glyps, glyphmap) =>
   glyps.reduce((acc, glyp) => {
@@ -31,8 +31,8 @@ const index = fs
       return acc;
     },
     {
-      FontAwesome5: pickGlyps(fontAwesomeMeta.solid, fontAwesomeGlyphmap),
-      FontAwesome5Brands: pickGlyps(
+      FontAwesome5Pro: pickGlyps(fontAwesomeMeta.solid, fontAwesomeGlyphmap),
+      FontAwesome5ProBrands: pickGlyps(
         fontAwesomeMeta.brands,
         fontAwesomeGlyphmap
       ),

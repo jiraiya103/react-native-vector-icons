@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 const customFontMap = {
-  'FontAwesome5_Solid.ttf': 'FontAwesome5',
-  'FontAwesome5_Brands.ttf': 'FontAwesome5Brands',
+  'FontAwesome5_Pro_Light.ttf': 'FontAwesome5ProLight',
+  'FontAwesome5_Pro_Brands.ttf': 'FontAwesome5ProBrands',
 };
 
 const fontDirectory = path.resolve(__dirname, '../../Fonts');
