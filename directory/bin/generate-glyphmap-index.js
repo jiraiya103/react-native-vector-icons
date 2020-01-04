@@ -31,7 +31,7 @@ const index = fs
       return acc;
     },
     {
-      FontAwesome5Pro: pickGlyps(fontAwesomeMeta.solid, fontAwesomeGlyphmap),
+      FontAwesome5Pro: pickGlyps(fontAwesomeMeta.light, fontAwesomeGlyphmap),
       FontAwesome5ProBrands: pickGlyps(
         fontAwesomeMeta.brands,
         fontAwesomeGlyphmap
